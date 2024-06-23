@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<list xmlns="https://www.volkswaigen.org/list"
+					xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:schemaLocation="list.xsd https://www.volkswaigen.org/xml/xsd/list.xsd"
+>
+	<entry type="user-agent" value="ChatGPT"/>
+</list>

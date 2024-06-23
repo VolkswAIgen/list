@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+					 targetNamespace="https://www.volkswaigen.org/list"
+					 xmlns="https://www.volkswaigen.org/list"
+					 elementFormDefault="qualified">
+	<xs:attribute name="value" type="xs:string" />
+	<xs:simpleType name="entry_type">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="ip-address"/>
+			<xs:enumeration value="user-agent"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:attribute name="type" type="entry_type" />
+
+	<xs:element name="entry">
+		<xs:complexType>
+			<xs:attribute ref="type" use="required"/>
+			<xs:attribute ref="value" use="required"/>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="list">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element ref="entry" minOccurs="1" maxOccurs="unbounded" />
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
