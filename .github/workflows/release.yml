@@ -4,7 +4,6 @@ on:
     types: ['published']
 jobs:
   build:
-    needs: [ xml-lint ]
     runs-on: ubuntu-latest
     continue-on-error: false
     steps:
