@@ -1,0 +1,26 @@
+name: Build
+on:
+  release:
+    types: ['published']
+jobs:
+  build:
+    needs: [ xml-lint ]
+    runs-on: ubuntu-latest
+    continue-on-error: false
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: "8.3"
+      - name: Convert to JSON
+        run: ./bin/convertXmlToJson list.xml list.json
+      - name: Add files to release
+        run: |
+          gh release upload ${{github.event.release.tag_name}} list.xml
+          gh release upload ${{github.event.release.tag_name}} list.json
+        env:
+          GITHUB_TOKEN: ${{ github.TOKEN }}
+        shell: bash
+
