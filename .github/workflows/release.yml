@@ -22,6 +22,6 @@ jobs:
           gh release upload ${{github.event.release.tag_name}} list.xml
           gh release upload ${{github.event.release.tag_name}} list.json
         env:
-          GITHUB_TOKEN: ${{ github.TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         shell: bash
 
