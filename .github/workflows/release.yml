@@ -6,6 +6,7 @@ jobs:
   build:
     permissions:
       actions: write
+      security-events: write
     runs-on: ubuntu-latest
     continue-on-error: false
     steps:
@@ -18,9 +19,10 @@ jobs:
       - name: Convert to JSON
         run: ./bin/convertXmlToJson.php list.xml list.json
       - name: Add files to release
-        uses: softprops/action-gh-release@v1
+        run: |
+          gh release upload ${{github.event.release.tag_name}} list.xml
+          gh release upload ${{github.event.release.tag_name}} list.json
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          files: list.*
+        shell: bash
 
