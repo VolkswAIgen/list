@@ -13,7 +13,7 @@ jobs:
         with:
           php-version: "8.3"
       - name: Convert to JSON
-        run: ./bin/convertXmlToJson list.xml list.json
+        run: ./bin/convertXmlToJson.php list.xml list.json
   xml-lint:
     runs-on: ubuntu-latest
     continue-on-error: false

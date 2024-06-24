@@ -14,7 +14,7 @@ jobs:
         with:
           php-version: "8.3"
       - name: Convert to JSON
-        run: ./bin/convertXmlToJson list.xml list.json
+        run: ./bin/convertXmlToJson.php list.xml list.json
       - name: Add files to release
         run: |
           gh release upload ${{github.event.release.tag_name}} list.xml
