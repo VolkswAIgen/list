@@ -4,6 +4,8 @@ on:
     types: ['published']
 jobs:
   build:
+    permissions:
+      actions: write
     runs-on: ubuntu-latest
     continue-on-error: false
     steps:
