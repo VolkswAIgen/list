@@ -4,9 +4,7 @@ on:
     types: ['published']
 jobs:
   build:
-    permissions:
-      actions: write
-      security-events: write
+    permissions: write-all
     runs-on: ubuntu-latest
     continue-on-error: false
     steps:
