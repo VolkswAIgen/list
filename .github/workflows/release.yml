@@ -18,10 +18,9 @@ jobs:
       - name: Convert to JSON
         run: ./bin/convertXmlToJson.php list.xml list.json
       - name: Add files to release
-        run: |
-          gh release upload ${{github.event.release.tag_name}} list.xml
-          gh release upload ${{github.event.release.tag_name}} list.json
+        uses: softprops/action-gh-release@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        shell: bash
+        with:
+          files: list.*
 
