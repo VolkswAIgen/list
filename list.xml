@@ -19,5 +19,30 @@
   You should have received a copy of the GNU General Public License along with
   this program. If not, see <http://www.gnu.org/licenses/>.
   -->
-	<entry type="user-agent" value="ChatGPT"/>
+	<entry type="user-agent" value="GPTBot" source="https://platform.openai.com/docs/gptbot"/>
+	<entry type="user-agent" value="ChatGPT-User" source="https://platform.openai.com/docs/plugins/bot"/>
+	<entry type="ip-address" value="23.98.142.176/28" source="https://platform.openai.com/docs/plugins/bot"/>
+	<entry type="ip-address" value="40.84.180.224/28" source="https://platform.openai.com/docs/plugins/bot"/>
+	<entry type="ip-address" value="13.65.240.240/28" source="https://platform.openai.com/docs/plugins/bot"/>
+	<entry type="ip-address" value="20.97.189.96/28" source="https://platform.openai.com/docs/plugins/bot"/>
+	<entry type="ip-address" value="20.161.75.208/28" source="https://platform.openai.com/docs/plugins/bot"/>
+	<entry type="ip-address" value="52.225.75.208/28" source="https://platform.openai.com/docs/plugins/bot"/>
+	<entry type="ip-address" value="52.156.77.144/28" source="https://platform.openai.com/docs/plugins/bot"/>
+	<entry type="ip-address" value="40.84.180.64/28" source="https://platform.openai.com/docs/plugins/bot"/>
+	<entry type="user-agent" value="https://openai.com/bot" source="https://platform.openai.com/docs/plugins/bot"/>
+	<entry type="ip-address" value="52.230.152.0/24" source="https://openai.com/gptbot.json"/>
+	<entry type="ip-address" value="52.233.106.0/24" source="https://openai.com/gptbot.json"/>
+	<entry type="user-agent" value="Google-Extended" source="https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers?hl=de"/>
+	<entry type="user-agent" value="CCBot" source="https://commoncrawl.org/ccbot"/>
+	<entry type="user-agent" value="PerplexityBot" source="https://www.cyberciti.biz/web-developer/block-openai-bard-bing-ai-crawler-bots-using-robots-txt-file/"/>
+	<entry type="ip-address" value="54.90.207.250/32" source="https://www.perplexity.ai/perplexitybot.json"/>
+	<entry type="ip-address" value="23.22.208.105/32" source="https://www.perplexity.ai/perplexitybot.json"/>
+	<entry type="ip-address" value="54.242.1.13/32" source="https://www.perplexity.ai/perplexitybot.json"/>
+	<entry type="ip-address" value="18.208.251.246/32" source="https://www.perplexity.ai/perplexitybot.json"/>
+	<entry type="ip-address" value="34.230.5.59/32" source="https://www.perplexity.ai/perplexitybot.json"/>
+	<entry type="ip-address" value="18.207.114.171/32" source="https://www.perplexity.ai/perplexitybot.json"/>
+	<entry type="ip-address" value="54.221.7.250/32" source="https://www.perplexity.ai/perplexitybot.json"/>
+	<entry type="user-agent" value="anthropic-ai" source="https://www.cyberciti.biz/web-developer/block-openai-bard-bing-ai-crawler-bots-using-robots-txt-file/"/>
+	<entry type="user-agent" value="Claude-Web" source="https://www.cyberciti.biz/web-developer/block-openai-bard-bing-ai-crawler-bots-using-robots-txt-file/"/>
+	<entry type="user-agent" value="ClaudeBot" source="https://www.cyberciti.biz/web-developer/block-openai-bard-bing-ai-crawler-bots-using-robots-txt-file/"/>
 </list>
