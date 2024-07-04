@@ -45,4 +45,22 @@
 	<entry type="user-agent" value="anthropic-ai" source="https://www.cyberciti.biz/web-developer/block-openai-bard-bing-ai-crawler-bots-using-robots-txt-file/"/>
 	<entry type="user-agent" value="Claude-Web" source="https://www.cyberciti.biz/web-developer/block-openai-bard-bing-ai-crawler-bots-using-robots-txt-file/"/>
 	<entry type="user-agent" value="ClaudeBot" source="https://www.cyberciti.biz/web-developer/block-openai-bard-bing-ai-crawler-bots-using-robots-txt-file/"/>
+	<entry type="user-agent" value="anthropic-ai" source="https://www.foundationwebdev.com/2023/11/which-web-crawlers-are-associated-with-ai-crawlers/"/>
+	<entry type="user-agent" value="Applebot-Extended" source="https://www.foundationwebdev.com/2023/11/which-web-crawlers-are-associated-with-ai-crawlers/"/>
+	<entry type="user-agent" value="Bytespider" source="https://www.foundationwebdev.com/2023/11/which-web-crawlers-are-associated-with-ai-crawlers/"/>
+	<entry type="user-agent" value="CCBot" source="https://www.foundationwebdev.com/2023/11/which-web-crawlers-are-associated-with-ai-crawlers/"/>
+	<entry type="user-agent" value="cohere-ai" source="https://www.foundationwebdev.com/2023/11/which-web-crawlers-are-associated-with-ai-crawlers/"/>
+	<entry type="user-agent" value="Diffbot" source="https://www.foundationwebdev.com/2023/11/which-web-crawlers-are-associated-with-ai-crawlers/"/>
+	<entry type="user-agent" value="FacebookBot" source="https://www.foundationwebdev.com/2023/11/which-web-crawlers-are-associated-with-ai-crawlers/"/>
+	<entry type="user-agent" value="GoogleOther" source="https://www.foundationwebdev.com/2023/11/which-web-crawlers-are-associated-with-ai-crawlers/"/>
+	<entry type="user-agent" value="ImagesiftBot" source="https://www.foundationwebdev.com/2023/11/which-web-crawlers-are-associated-with-ai-crawlers/" />
+	<entry type="user-agent" value="PerplexityBot" source="https://www.foundationwebdev.com/2023/11/which-web-crawlers-are-associated-with-ai-crawlers/"/>
+	<entry type="user-agent" value="OmigiliBot" source="https://www.foundationwebdev.com/2023/11/which-web-crawlers-are-associated-with-ai-crawlers/"/>
+	<entry type="user-agent" value="Omigili" source="https://www.foundationwebdev.com/2023/11/which-web-crawlers-are-associated-with-ai-crawlers/"/>
+	<entry type="user-agent" value="YouBot" source="https://darkvisitors.com/agents"/>
+	<entry type="user-agent" value="AppleBot" source="https://darkvisitors.com/agents"/>
+	<entry type="user-agent" value="Amazonbot" source="https://darkvisitors.com/agents"/>
+	<entry type="user-agent" value="omgili" source="https://darkvisitors.com/agents"/>
+	<entry type="user-agent" value="FacebookBot" source="https://darkvisitors.com/agents"/>
+	<entry type="user-agent" value="ClaudeBot" source="https://darkvisitors.com/agents"/>
 </list>
