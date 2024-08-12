@@ -32,6 +32,9 @@
 	<entry type="user-agent" value="https://openai.com/bot" source="https://platform.openai.com/docs/plugins/bot"/>
 	<entry type="ip-address" value="52.230.152.0/24" source="https://openai.com/gptbot.json"/>
 	<entry type="ip-address" value="52.233.106.0/24" source="https://openai.com/gptbot.json"/>
+	<entry type="user-agent" value="OAI-SearchBot" source="https://platform.openai.com/docs/plugins/bot"/>
+	<entry type="ip-address" value="20.42.10.176/28" source="https://openai.com/searchbot.json"/>
+	<entry type="ip-address" value="172.203.190.128/28" source="https://openai.com/searchbot.json"/>
 	<entry type="user-agent" value="Google-Extended" source="https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers?hl=de"/>
 	<entry type="user-agent" value="CCBot" source="https://commoncrawl.org/ccbot"/>
 	<entry type="user-agent" value="PerplexityBot" source="https://www.cyberciti.biz/web-developer/block-openai-bard-bing-ai-crawler-bots-using-robots-txt-file/"/>
