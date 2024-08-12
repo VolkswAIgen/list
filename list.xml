@@ -21,6 +21,7 @@
   -->
 	<entry type="user-agent" value="GPTBot" source="https://platform.openai.com/docs/gptbot"/>
 	<entry type="user-agent" value="ChatGPT-User" source="https://platform.openai.com/docs/plugins/bot"/>
+	<entry type="user-agent" value="OAI-SearchBot" source="https://platform.openai.com/docs/plugins/bot"/>
 	<entry type="ip-address" value="23.98.142.176/28" source="https://platform.openai.com/docs/plugins/bot"/>
 	<entry type="ip-address" value="40.84.180.224/28" source="https://platform.openai.com/docs/plugins/bot"/>
 	<entry type="ip-address" value="13.65.240.240/28" source="https://platform.openai.com/docs/plugins/bot"/>
